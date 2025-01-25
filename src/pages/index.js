@@ -128,7 +128,7 @@ const Home = () => {
         </div>
         <input
           type="url"
-          placeholder={lang === 'en' ? 'Enter a URL' : 'Bir URL girin'}
+          placeholder={lang === 'en' ? 'Enter a url ( ex: google.com )' : 'Bir url girin ( ör: google.com)'}
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           className="url-input"
