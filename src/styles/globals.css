@@ -1,0 +1,31 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  transition: all 0.3s ease;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
